@@ -12,13 +12,29 @@ $('.project-page__slider-control').click(function(e) {
 
 });
 
+//OUR SERVICES
 
+$(document).ready(function(){
+  $('.slider-1').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        }
+    },
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+})
+// $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+//  $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+});
 
 
 
 //slider-page
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.slider-2').owlCarousel({
     loop:true,
     margin:10,
     nav:false,

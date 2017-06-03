@@ -28,7 +28,7 @@ gulp.task('clean', function() {
 });
 
 gulp.task('resources', function() {
-  return gulp.src('src/resources/**', {since: gulp.lastRun('resources')})
+  return gulp.src(['src/resources/**', '!src/resources/images/svg/'], {since: gulp.lastRun('resources')})
       .pipe(newer('dist/resources'))
       .pipe(gulp.dest('dist/resources'))
 });
