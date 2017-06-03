@@ -1,0 +1,42 @@
+
+@font-face {
+  font-family:"OpenSans-Bold";
+   src: url("../resources/fonts/OpenSans-Bold.ttf");
+   font-weight: 600;
+   font-style: normal;
+  }
+
+@font-face {
+ font-family:"Merriweather-Regular";
+  src: url("../resources/fonts/Merriweather-Regular.ttf");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face{
+    font-family:"proximanova-light";
+    src:url("../resources/fonts/proximanova-light.otf");
+    font-weight: 300;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"ProximaNova-Regular";
+    src:url("../resources/fonts/ProximaNova-Regular.ttf");
+    font-weight: 400;
+    font-style:normal;
+}
+
+
+@font-face{
+    font-family:"proximanova-semibold";
+    src:url("../resources/fonts/proximanova-semibold.otf");
+    font-weight: 500;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:"proximanova-bold";
+    src:url("../resources/fonts/proximanova-bold.otf");
+    font-weight: 600;
+    font-style:normal;
+}
