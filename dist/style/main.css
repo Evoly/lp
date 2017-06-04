@@ -596,6 +596,25 @@ html, body {
       display: -ms-flexbox;
       display: flex; } }
 
+.slider-1 {
+  position: relative; }
+
+.owl-next {
+  position: absolute;
+  top: 110px;
+  right: -20px;
+  width: 30px;
+  height: 30px;
+  font-size: 50px; }
+
+.owl-prev {
+  position: absolute;
+  top: 110px;
+  left: -20px;
+  width: 30px;
+  height: 30px;
+  font-size: 50px; }
+
 @media (max-width: 1300px) {
   .page-team {
     padding-left: 30px;
@@ -636,7 +655,6 @@ html, body {
         justify-content: space-around;
     min-height: 390px;
     max-width: 550px;
-    min-width: 300px;
     padding-right: 80px; }
     @media (max-width: 1300px) {
       .project-page__left-col {

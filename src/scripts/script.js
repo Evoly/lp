@@ -24,10 +24,8 @@ $(document).ready(function(){
             items:1
         }
     },
-    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+    navText : ["<i class='fa fa-angle-left' ></i>","<i class='fa fa-angle-right' ></i>"]
 })
-// $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-//  $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 });
 
 
